@@ -1,16 +1,52 @@
 ﻿@inherits LayoutComponentBase
 
-<div class="sidebar">
-    <NavMenu />
-</div>
 
-<div class="main">
-    <div class="top-row px-4">
-        <LoginDisplay></LoginDisplay>
-        <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
-    </div>
 
-    <div class="content px-4">
+<div class="page-container">
+    <nav class="nav-container">
+        <section class="d-sm-b">
+            <div class="nav-Box d-sm-b">
+                <div class="nav-logo ">
+                    <a href="/">Swift</a>
+                </div>
+                <div class="nav-listproducts d-sm-b">
+                    <ul>
+                        <li><a href="/Clothing">Clothing</a></li>
+                        <li><a href="/Shoes">Shoes</a></li>
+                    </ul>
+                </div>
+                <div class="nav-essentials">
+                    <LoginDisplay></LoginDisplay>
+                    <input/>
+                </div>
+            </div>
+        </section>
+    </nav>
+    <div>
         @Body
     </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
